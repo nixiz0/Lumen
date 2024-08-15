@@ -1,0 +1,30 @@
+# env files 
+__pycache__
+.env
+
+# save config 
+save_config_txt
+
+# Json files
+config_json
+
+# Temp audio files
+functions/config_page/speech_to_text/temp_audio
+temp_output_voice
+
+# Chat History
+functions/discussion_page/discussion_history
+functions/code_page/code_history
+functions/precision_page/precision_history
+functions/vision_page/vision_history
+
+# Temp code & elements
+temp_code
+temp_element
+
+# Model parameters 
+temp_modelfile
+
+# Photos cam
+photos
+
