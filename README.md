@@ -1,5 +1,5 @@
 
-# **Lumen**
+# **Lumen** (for Windows)
 
 **Assistant to support you in your projects and tasks.**
 
