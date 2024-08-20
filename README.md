@@ -26,16 +26,6 @@ with **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SPEECH\Voices\Tokens**.
 
 5. Save the modified file and double-click it to import the changes to the registry.
 
-## Launch assistant when your computer starts
-
-- Pressed **"Windows" + R**
-
-- Write **"shell:startup"**
-
-- Copy and paste the **"start-assistant.bat"** on this folder
-
-And now the script will start as soon as your computer starts.
-
 
 ## Tech Stack
 
