@@ -7,6 +7,9 @@ def load_sentences():
     json_dir = os.path.join('config_json')
     target_file = 'text.json'
     
+    if not os.path.exists(json_dir):
+        os.makedirs(json_dir)
+    
     if target_file in os.listdir(json_dir):
         with open(os.path.join(json_dir, target_file), 'r', encoding='utf-8') as f:
             if f.read().strip():
