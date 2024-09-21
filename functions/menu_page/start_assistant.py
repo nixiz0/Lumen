@@ -75,7 +75,12 @@ def run_assistant(lang):
                     talk("Lancement de l'application " + trigger_phrase)
                 else: 
                     talk("Starting the application " + trigger_phrase)
-                subprocess.Popen(['start', app_path], shell=True)
+                
+                # Check if the application path is a .bat file
+                if app_path.endswith('.bat'):
+                    subprocess.Popen(['start', app_path], shell=True)
+                else:
+                    subprocess.Popen(app_path, shell=True)
                 break
 
         if is_connected():
