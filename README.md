@@ -1,5 +1,5 @@
 
-# **Lumen**
+# **Lumen** (for Windows)
 
 **Assistant to support you in your projects and tasks.**
 
@@ -9,7 +9,7 @@
 Run the **start-assistant.bat** and follow the instructions on the shell.
 
 **ATTENTION :**
-This application is not suitable for **Mac** and **Linux** and may not work depending on the hardware of your computer.
+This application is not suitable for **Mac** and **Linux** and may not work depending on the hardware of your Windows computer.
 ## Synthetic Voices
 
 If you want to have more synthetic voices available, on Windows you have to go to the narrator settings and you can download the voices you want.
@@ -25,16 +25,6 @@ If this doesn't work and doesn't recognize the voices you have installed on the 
 with **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SPEECH\Voices\Tokens**.
 
 5. Save the modified file and double-click it to import the changes to the registry.
-
-## Launch assistant when your computer starts
-
-- Pressed **"Windows" + R**
-
-- Write **"shell:startup"**
-
-- Copy and paste the **"start-assistant.bat"** on this folder
-
-And now the script will start as soon as your computer starts.
 
 
 ## Tech Stack
